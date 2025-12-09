@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Hotel Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .room {
+            background-color: white;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .room img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 1rem;
+        }
+        .room-details {
+            flex: 1;
+        }
+        .room h2 {
+            margin-top: 0;
+        }
+        .price {
+            font-size: 1.5rem;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .features {
+            margin-top: 1rem;
+        }
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features li {
+            display: inline-block;
+            margin-right: 1rem;
+            background-color: #ecf0f1;
+            padding: 0.5rem;
+            border-radius: 4px;
+        }
+        .book-btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+        .book-btn:hover {
+            background-color: #2980b9;
+        }
+        @media (max-width: 768px) {
+            .room {
+                flex-direction: column;
+            }
+            .room img {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Simple Hotel</h1>
+        <p>Book your perfect stay with us!</p>
+    </header>
+    <div class="container">
+        <div class="room">
+            <img src="https://via.placeholder.com/300x200?text=Standard+Single+Room" alt="Standard Single Room">
+            <div class="room-details">
+                <h2 class="room-name">Standard Single Room</h2>
+                <p class="price">$50/night</p>
+                <p class="details">A cozy room perfect for solo travelers. Includes basic amenities for a comfortable stay.</p>
+                <div class="features">
+                    <h3>Features:</h3>
+                    <ul>
+                        <li>Free WiFi</li>
+                        <li>TV</li>
+                        <li>Air Conditioning</li>
+                        <li>Single Bed</li>
+                    </ul>
+                </div>
+                <button class="book-btn" onclick="alert('Booking for Standard Single Room initiated!')">Book Now</button>
+            </div>
+        </div>
+
+        <div class="room">
+            <img src="https://via.placeholder.com/300x200?text=Deluxe+Double+Room" alt="Deluxe Double Room">
+            <div class="room-details">
+                <h2 class="room-name">Deluxe Double Room</h2>
+                <p class="price">$80/night</p>
+                <p class="details">Spacious room with modern decor, ideal for couples or small families.</p>
+                <div class="features">
+                    <h3>Features:</h3>
+                    <ul>
+                        <li>Free WiFi</li>
+                        <li>TV</li>
+                        <li>Air Conditioning</li>
+                        <li>Double Bed</li>
+                        <li>Mini Fridge</li>
+                    </ul>
+                </div>
+                <button class="book-btn" onclick="alert('Booking for Deluxe Double Room initiated!')">Book Now</button>
+            </div>
+        </div>
+
+        <div class="room">
+            <img src="https://via.placeholder.com/300x200?text=Suite" alt="Suite">
+            <div class="room-details">
+                <h2 class="room-name">Suite</h2>
+                <p class="price">$150/night</p>
+                <p class="details">Luxurious suite with separate living area, perfect for extended stays or special occasions.</p>
+                <div class="features">
+                    <h3>Features:</h3>
+                    <ul>
+                        <li>Free WiFi</li>
+                        <li>TV</li>
+                        <li>Air Conditioning</li>
+                        <li>King Bed</li>
+                        <li>Mini Fridge</li>
+                        <li>Balcony</li>
+                        <li>Room Service</li>
+                    </ul>
+                </div>
+                <button class="book-btn" onclick="alert('Booking for Suite initiated!')">Book Now</button>
+            </div>
+        </div>
+
+        <div class="room">
+            <img src="https://via.placeholder.com/300x200?text=Family+Room" alt="Family Room">
+            <div class="room-details">
+                <h2 class="room-name">Family Room</h2>
+                <p class="price">$120/night</p>
+                <p class="details">Large room designed for families, with extra space and amenities for kids.</p>
+                <div class="features">
+                    <h3>Features:</h3>
+                    <ul>
+                        <li>Free WiFi</li>
+                        <li>TV</li>
+                        <li>Air Conditioning</li>
+                        <li>Two Double Beds</li>
+                        <li>Mini Fridge</li>
+                        <li>Kids' Play Area</li>
+                    </ul>
+                </div>
+                <button class="book-btn" onclick="alert('Booking for Family Room initiated!')">Book Now</button>
+            </div>
+        </div>
+
+        <div class="room">
+            <img src="https://via.placeholder.com/300x200?text=Penthouse" alt="Penthouse">
+            <div class="room-details">
+                <h2 class="room-name">Penthouse</h2>
+                <p class="price">$300/night</p>
+                <p class="details">Exclusive top-floor penthouse with stunning views and premium services.</p>
+                <div class="features">
+                    <h3>Features:</h3>
+                    <ul>
+                        <li>Free WiFi</li>
+                        <li>TV</li>
+                        <li>Air Conditioning</li>
+                        <li>King Bed</li>
+                        <li>Mini Fridge</li>
+                        <li>Balcony</li>
+                        <li>Room Service</li>
+                        <li>Jacuzzi</li>
+                        <li>City View</li>
+                    </ul>
+                </div>
+                <button class="book-btn" onclick="alert('Booking for Penthouse initiated!')">Book Now</button>
+            </div>
+        </div>
+
+        <div class="room">
+            <img src="https://via.placeholder.com/300x200?text=Budget+Room" alt="Budget Room">
+            <div class="room-details">
+                <h2 class="room-name">Budget Room</h2>
+                <p class="price">$40/night</p>
+                <p class="details">Affordable option for budget-conscious travelers, with essential amenities.</p>
+                <div class="features">
+                    <h3>Features:</h3>
+                    <ul>
+                        <li>Free WiFi</li>
+                        <li>TV</li>
+                        <li>Air Conditioning</li>
+                        <li>Single Bed</li>
+                    </ul>
+                </div>
+                <button class="book-btn" onclick="alert('Booking for Budget Room initiated!')">Book Now</button>
+            </div>
+        </div>
+
+        <div class="room">
+            <img src="https://via.placeholder.com/300x200?text=Executive+Room" alt="Executive Room">
+            <div class="room-details">
+                <h2 class="room-name">Executive Room</h2>
+                <p class="price">$100/night</p>
+                <p class="details">Business-friendly room with workspace and modern comforts for professionals.</p>
+                <div class="features">
+                    <h3>Features:</h3>
+                    <ul>
+                        <li>Free WiFi</li>
+                        <li>TV</li>
+                        <li>Air Conditioning</li>
+                        <li>King Bed</li>
+                        <li>Mini Fridge</li>
+                        <li>Desk</li>
+                        <li>Coffee Maker</li>
+                    </ul>
+                </div>
+                <button class="book-btn" onclick="alert('Booking for Executive Room initiated!')">Book Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
