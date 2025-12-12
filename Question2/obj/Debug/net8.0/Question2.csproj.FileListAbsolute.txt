@@ -26,3 +26,4 @@ C:\Users\ZEE\Desktop\20079754\Question2\obj\Debug\net8.0\refint\Question2.dll
 C:\Users\ZEE\Desktop\20079754\Question2\obj\Debug\net8.0\Question2.pdb
 C:\Users\ZEE\Desktop\20079754\Question2\obj\Debug\net8.0\Question2.genruntimeconfig.cache
 C:\Users\ZEE\Desktop\20079754\Question2\obj\Debug\net8.0\ref\Question2.dll
+C:\Users\ZEE\Desktop\20079754\Question2\obj\Debug\net8.0\Question2.sourcelink.json

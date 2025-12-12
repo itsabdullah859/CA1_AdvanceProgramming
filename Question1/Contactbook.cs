@@ -92,7 +92,7 @@ namespace ContactBookApp
             Console.Write("Enter New Company: ");
             c.Company = Console.ReadLine();
 
-            Console.Write("Enter New Email: ");
+            Console.Write("Enter New Email: "); 
             c.Email = Console.ReadLine();
 
             Console.Write("Enter New Birthdate: ");
