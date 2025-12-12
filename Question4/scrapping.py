@@ -4,7 +4,7 @@ import csv
 # -------------------------
 # Function to scrape a hotel page
 # -------------------------
-def scrape_hotel(filename, hotel_name):
+def scrape_hotel(filename, hotel_name):  
     rooms_data = []
 
     # Read the HTML file
