@@ -34,6 +34,6 @@ namespace ContactBookApp
                 }
             }
             while (choice != 0);
-        }
+        } 
     }
 }

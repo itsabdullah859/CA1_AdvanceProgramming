@@ -70,7 +70,7 @@ def main():
 
         # receive data from client
         data = conn.recv(1024).decode()
-        student_data = json.loads(data)
+        student_data = json.loads(data) 
 
         # generate unique number
         app_number = generate_application_number()

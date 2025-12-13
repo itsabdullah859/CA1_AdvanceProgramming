@@ -19,7 +19,7 @@ namespace FileExtensionInfoSystem
                 { ".wav", "Waveform audio file" },
                 { ".flac", "Free Lossless Audio Codec audio file" },
                 { ".jpg", "JPEG image file" },
-                { ".png", "Portable Network Graphics image" },
+                { ".png", "Portable Network Graphics image" }, 
                 { ".gif", "Graphics Interchange Format image" },
                 { ".bmp", "Bitmap image file" },
                 { ".txt", "Plain text file" },
